@@ -29,3 +29,10 @@ The `score` indicates how relevant a question is to the question provided in the
 ### Testing
 
 * Run unit tests as follows `make test`
+
+### Next Steps
+
+* Scaling 
+    * Use map reduce for tokenizing, bag of words and tf-idf (preferably in spark)
+    * Pairwise similarities between the vectors can be computed using the DIMSUM approach in spark.
+        * Described here: https://databricks.com/blog/2014/10/20/efficient-similarity-algorithm-now-in-spark-twitter.html
